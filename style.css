@@ -1,0 +1,154 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  background: #1f2937;
+}
+
+.image0 {
+  height: 50px;
+  width: auto;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 200px;
+  background: #1f2937;
+}
+
+.web {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 300px;
+  padding-right: 75px;
+}
+
+.header2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.text1 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  width: 130px;
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: #f9faf8;
+  background: #3882f6
+}
+
+.image1 {
+  height: 300px;
+  width: 2200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 75px 0px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 75px;
+  padding: 75px 0px;
+}
+
+.header3 {
+  font-size: 36px;
+  font-weight:bolder;
+  color: #1f2937;
+}
+
+.rides {
+  width: 200px;
+  font-size: 18px;
+}
+
+.image2 {
+  height: 150px;
+  width: auto;
+  border-radius: 12px;
+  border: solid #3882f6
+}
+
+.quote {
+  padding: 150px 350px;
+  background: #e5e7eb;
+}
+
+.quote1 {
+  font-size: 36px;
+  font-style: italic;
+  text-align: justify;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.action {
+  padding: 100px 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  border-radius: 8px;
+  font-size: 18px;
+  background: #3882f6;
+  color: #f9faf8;
+}
+
+.txtgroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.text3 {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  background: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
